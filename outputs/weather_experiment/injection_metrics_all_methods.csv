@@ -1,0 +1,15 @@
+variant,method,flagged_hours,point_precision,point_recall,point_f1,event_recall
+calendar,stl,172,0.6221,0.2123,0.3166,0.66
+calendar,fc,191,0.5759,0.2183,0.3165,0.54
+calendar,if,219,0.5068,0.2202,0.3071,0.78
+calendar,ae,97,0.6392,0.123,0.2063,0.9
+calendar,ens,138,0.7899,0.2163,0.3396,0.78
+calendar,dq,324,1.0,0.6429,0.7826,0.4
+calendar,final,383,0.9243,0.7024,0.7982,0.9
+weather,stl,172,0.6221,0.2123,0.3166,0.66
+weather,fc,378,0.9709,0.7282,0.8322,1.0
+weather,if,219,0.5068,0.2202,0.3071,0.78
+weather,ae,97,0.6392,0.123,0.2063,0.9
+weather,ens,172,0.9186,0.3135,0.4675,0.94
+weather,dq,324,1.0,0.6429,0.7826,0.4
+weather,final,404,0.9653,0.7738,0.859,1.0

@@ -1,0 +1,4 @@
+event,window,STL + robust z,Forecast residual (GBM),Isolation Forest,Autoencoder,Ensemble (>=2 votes),Final (ensemble OR rules)
+Hurricane Sandy,2012-10-28 to 2012-11-02,11,46,7,4,14,14
+Polar Vortex,2014-01-05 to 2014-01-09,0,0,8,0,0,0
+Blizzard Jonas,2016-01-22 to 2016-01-25,0,0,0,0,0,0

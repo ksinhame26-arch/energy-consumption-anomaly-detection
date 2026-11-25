@@ -1,0 +1,36 @@
+method,type,event_recall,method_name
+stl,dip,1.0,STL + robust z
+stl,dropout,1.0,STL + robust z
+stl,flatline,0.4,STL + robust z
+stl,level_shift,0.4,STL + robust z
+stl,spike,0.9,STL + robust z
+fc,dip,0.9,Forecast residual (GBM)
+fc,dropout,1.0,Forecast residual (GBM)
+fc,flatline,0.4,Forecast residual (GBM)
+fc,level_shift,0.3,Forecast residual (GBM)
+fc,spike,0.6,Forecast residual (GBM)
+if,dip,1.0,Isolation Forest
+if,dropout,1.0,Isolation Forest
+if,flatline,0.1,Isolation Forest
+if,level_shift,0.8,Isolation Forest
+if,spike,1.0,Isolation Forest
+ae,dip,1.0,Autoencoder
+ae,dropout,1.0,Autoencoder
+ae,flatline,0.8,Autoencoder
+ae,level_shift,1.0,Autoencoder
+ae,spike,1.0,Autoencoder
+ens,dip,1.0,Ensemble (>=2 votes)
+ens,dropout,1.0,Ensemble (>=2 votes)
+ens,flatline,0.2,Ensemble (>=2 votes)
+ens,level_shift,0.6,Ensemble (>=2 votes)
+ens,spike,1.0,Ensemble (>=2 votes)
+dq,dip,0.0,Data-quality rules
+dq,dropout,1.0,Data-quality rules
+dq,flatline,1.0,Data-quality rules
+dq,level_shift,0.0,Data-quality rules
+dq,spike,0.0,Data-quality rules
+final,dip,1.0,Final (ensemble OR rules)
+final,dropout,1.0,Final (ensemble OR rules)
+final,flatline,1.0,Final (ensemble OR rules)
+final,level_shift,0.6,Final (ensemble OR rules)
+final,spike,1.0,Final (ensemble OR rules)

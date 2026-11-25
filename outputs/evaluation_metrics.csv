@@ -1,0 +1,8 @@
+method,flagged_hours,point_precision,point_recall,point_f1,event_recall
+STL + robust z,202,0.5693,0.2426,0.3402,0.74
+Forecast residual (GBM),186,0.6129,0.2405,0.3455,0.64
+Isolation Forest,219,0.4429,0.2046,0.2799,0.78
+Autoencoder,98,0.6939,0.1435,0.2378,0.96
+Ensemble (>=2 votes),153,0.6471,0.2089,0.3158,0.76
+Data-quality rules,294,1.0,0.6203,0.7656,0.4
+Final (ensemble OR rules),402,0.8657,0.7342,0.7945,0.92
